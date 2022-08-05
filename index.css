@@ -11,10 +11,10 @@ h1{
 }
 .header{
     background: rgba(255, 113, 67, 0.27);
- 
+ padding: 38px 0 48px;
     
 }
-.header__flex{
+.header__flex .about, .subscribe{
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -121,4 +121,41 @@ background: rgba(255, 113, 67, 0.27);
     justify-content: space-between;
     align-items: center;
     margin-right: 350px;
+}
+
+.subscribe{
+    margin-bottom: 85px;
+}
+.subscribe__title{
+font-family: 'DM Sans';
+font-style: bold;
+font-size: 50px;
+line-height: 57px;
+letter-spacing: -1.56316px;
+
+color: #19191B;
+margin-bottom: 38px;
+}
+.input{
+box-sizing: border-box;
+width: 302px;
+height: 60px;
+
+border: 1px solid #7087FF;
+border-radius: 10px;
+padding-left: 14px;
+margin-right: 39px;
+}
+
+.input::placeholder,input {
+font-weight: 700;
+font-size: 17px;
+line-height: 22px;
+letter-spacing: -0.531474px;
+
+color: #000000;
+
+}
+.input:focus{
+    outline: none;
 }
